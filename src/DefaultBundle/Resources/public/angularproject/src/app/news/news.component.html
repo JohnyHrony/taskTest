@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>All news!!!</h2>
+  <div class="col-lg-4">
+    <h3>News: </h3>
+    <ol>
+      <li (click)="singleNews(new)" id="{{new.id}}" *ngFor="let new of news" class="clicked_elem">{{new.title}}</li>
+    </ol>
+  </div>
+  <div class="col-lg-8">
+    <h3>Content: </h3>
+    <p>{{selected}}</p>
+  </div>
+
+</div>
+

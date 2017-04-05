@@ -5,4 +5,4 @@ Running: -[cd src\DefaultBundle\Resources\public\angularproject]-
 Install all required npm packages by running: -[npm install]- from the command line.
 Build project by running: -[npm run build]-
 
-And Symfony3 run start page!
+And run Symfony3's start page!
